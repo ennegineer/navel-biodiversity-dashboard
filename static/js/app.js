@@ -4,7 +4,7 @@ var sampledata;
 d3.json("../samples.json").then(function (data) {
   sampledata = data;
   console.log(sampledata);
-  // let individuals = data.map(row => row.names)
+  // let subjects = list of IDs from 'names'
   var subjects = sampledata.names;
   select = document.getElementById("selDataset");
   for (let i = 0; i < subjects.length; i++) {
@@ -33,7 +33,7 @@ function optionChanged(selectedID) {
     }
   }
 
-  // subjectCard
+  // subject info card
   d3.select("#sample-metadata").html(`<strong>id</strong>: ${selectedID} <br>
             <strong>ethnicity</strong>: ${ethnicity}<br>
             <strong>gender</strong>:  ${gender}<br>
@@ -103,7 +103,6 @@ function optionChanged(selectedID) {
 
   // Gauge chart!
 
-  // needle
   // Trig to draw the gauge needle
   function gaugePointer(value) {
     var degrees = 180 - value * 20;
@@ -168,6 +167,7 @@ function optionChanged(selectedID) {
     },
   ];
 
+  //   layout to move the needle
   var needlePos = {
     shapes: [
       {
