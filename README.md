@@ -14,6 +14,6 @@ More details are listed about the subject under the ID selection dropdown.
 
 ## Final product
 
-The final product of this project is an interactive website built with HTML, CSS and Javascript, allowing the user to explore the dataset on belly button biodiversity to reach their own conclusions.
+The final product of this project is an interactive website built with HTML, CSS and Javascript, allowing the user to explore the dataset on belly button biodiversity to reach their own conclusions. You can interact with the data [here](https://ennegineer.github.io/navel-biodiversity-dashboard/).
 
-![screenshot](sreenshot.JPG)
+![screenshot](screenshot.JPG)
