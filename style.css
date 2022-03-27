@@ -1,0 +1,13 @@
+.panel-body {
+  padding: 0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.panel-primary {
+  border-color: #a60059;
+}
+
+.panel-primary .panel-heading {
+  background-color: #a60059;
+}
